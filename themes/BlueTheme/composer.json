@@ -1,0 +1,14 @@
+{
+    "name": "test1/blue-theme",
+    "authors": [
+        {
+            "name": "Lukasz Potter",
+            "email": "prongs@example.com"
+        }
+    ],
+    "extra": {
+        "sylius-theme": {
+            "title": "Blue Theme"
+        }
+    }
+}
