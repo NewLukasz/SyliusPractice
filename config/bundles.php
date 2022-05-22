@@ -60,3 +60,4 @@ return [
     Sylius\PayPalPlugin\SyliusPayPalPlugin::class => ['all' => true],
     SyliusLabs\Polyfill\Symfony\Security\Bundle\SyliusLabsPolyfillSymfonySecurityBundle::class => ['all' => true],
 ];
+
