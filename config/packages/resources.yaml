@@ -1,0 +1,6 @@
+sylius_resource:
+    resources:
+          app.banner_image:
+            driver: doctrine/orm
+            classes:
+                model: App\Entity\BannerImage
