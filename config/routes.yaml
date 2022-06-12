@@ -1,13 +1,16 @@
 sylius_paypal_webhook:
     resource: "@SyliusPayPalPlugin/Resources/config/webhook_routing.yaml"
 
-
-app_banner_image:
+app_car:
     resource: |
-        alias: app.banner_image
+        alias: app.car
         section: admin
         templates: "@SyliusAdmin\\Crud"
-        grid: app_admin_banner_image
+        grid: app_admin_car
         redirect: index
     type: sylius.resource
     prefix: admin
+
+
+
+

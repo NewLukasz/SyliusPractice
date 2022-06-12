@@ -1,10 +1,17 @@
 sylius_grid:
-    grids:
-        app_admin_banner_image:
+    grids: 
+        app_admin_car:
             driver:
                 name: doctrine/orm
                 options:
-                    class: App\Entity\BannerImage
+                    class: App\Entity\Car
+            fields:
+                Name:
+                    type: string
+                Brand:
+                    type: string
+                Model:
+                    type: string
             actions:
                 main:
                     create:
@@ -13,4 +20,6 @@ sylius_grid:
                     update:
                         type: update
                     delete:
-                        type: delete
+                        type: delete 
+    
+            
